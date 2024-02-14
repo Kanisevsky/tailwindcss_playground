@@ -1,15 +1,9 @@
-import Alert from '@/components/Alert';
-import ContactCard from '@/components/ContactCard';
-import ContactCardList from '@/components/ContactCardList';
-import FeatureCard from '@/components/FeatureCard';
+import TopBar from '@/components/TopBar';
 
 export default function Home() {
   return (
     <main>
-      <Alert />
-      <ContactCard />
-      <FeatureCard />
-      <ContactCardList />
+      <TopBar />
     </main>
   );
 }
